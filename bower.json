@@ -4,8 +4,7 @@
   "description": "A datepicker directive for angularjs.",
   "authors": [
     "Filippo Oretti <filippo.oretti@gmail.com",
-    "Dario Andrei <wouldgo84@gmail.com>",
-    "Margarita Ignatieva <margaret.vegan@gmail.com>"
+    "Dario Andrei <wouldgo84@gmail.com>"
   ],
   "keywords": [
     "date",
