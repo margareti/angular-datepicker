@@ -7,7 +7,13 @@ Angular Datepicker
 
 Angular datepicker is an angularjs directive that generates a datepicker calendar on your input element.
 
-The Angularjs Datepicker is developed by [720kb](http://720kb.net).
+Angularjs Datepicker, originally developed by [720kb](http://720kb.net).
+This is based on datepicker version with watchers drastically reduced, making the datepicker much faster.
+
+###Changes 07/02/2017 
+The date-min-limit property has been made to listen to the changes of the data model.
+Date-set has been amended to show exactly the date, without offset.
+"Toggling between years" has been amended.
 
 ##Requirements
 
