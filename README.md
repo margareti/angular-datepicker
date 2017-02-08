@@ -1,4 +1,4 @@
-Angular Datepicker
+Fast AngularJS Datepicker (Based on Angular Datepicker)
 ==================
 ![Angular datepicker calendar](http://i.imgur.com/jKfADtA.png)
 
