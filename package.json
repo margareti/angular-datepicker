@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "connect-modrewrite": "*",
-    "grunt": "*",
+    "grunt": "^1.0.1",
     "grunt-concurrent": "*",
     "grunt-contrib-connect": "*",
     "grunt-contrib-csslint": "*",
