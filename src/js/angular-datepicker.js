@@ -383,7 +383,9 @@
       }
 
       function setInputValue() {
-        dateSelected = new Date($scope.year, monthNumber, $scope.day);
+        var hours = dateSelected.getHours();
+        var minutes = dateSelected.getMinutes();
+        dateSelected = new Date($scope.year, monthNumber, $scope.day, hours, minutes);
 
         if(!isSelectableMinDate(dateSelected) && !isSelectableMaxDate(dateSelected)) return;
 
