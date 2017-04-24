@@ -859,7 +859,10 @@
 
       function isSelectableMinDate(aDate) {
         if(!dateMinLimit) return true;
-        return aDate.getTime() >= new Date($scope.dateMinLimit).getTime();
+        var resetMinDate = new Date($scope.dateMinLimit);
+        resetMinDate.setHours(0);
+        resetMinDate.setMinutes(0);
+        return aDate.getTime() >= resetMinDate.getTime();
       }
 
       function isSelectableMaxDate(aDate) {

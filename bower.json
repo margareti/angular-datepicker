@@ -1,6 +1,6 @@
 {
   "name": "angularjs-fast-datepicker",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "A datepicker directive for angularjs.",
   "authors": [
     "Filippo Oretti <filippo.oretti@gmail.com",
